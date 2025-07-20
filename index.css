@@ -1,0 +1,203 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    text-align: center;
+    color: rgb(219, 219, 219);
+    -webkit-text-stroke:1px #000000;
+    font-size: 64px;
+    padding: 140px 0;
+}
+footer{
+    background-color: rgb(112, 108, 108);
+}
+header{
+    background-image: url(https://learn.logikaschool.com/uploads/student/4650141/68735c12da001.png);
+    display: flex;
+    background-size: 100%;
+    flex-direction: column;
+    box-shadow: 50px 50px 50px rgb(255, 38, 38);
+}
+header, main, footer {
+    padding: 0 88px;
+}
+nav{
+    display: flex;
+    background: #7a7373;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 0px;
+    gap: 100px;
+}
+nav a{
+    color: rgb(206, 206, 206);
+    text-decoration: none;
+    font-size: 36px;
+    font-weight: 700;
+    transition: 0.3s all;
+    padding: 10px;
+}
+nav a:hover{
+    color: #b43333;
+    background-color: white;
+    border-radius: 10px;
+}
+
+h3{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: #616161;
+}
+h2{    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    color: #8b4242;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+}
+p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: #918585;
+}
+.menu-items {
+    display: flex;
+    justify-content: center;
+    gap:55px ;
+}
+.teachers-div{
+    display: flex;
+    justify-content: center;
+}
+.teachers p {
+    line-height: 1.5;
+    font-size: 30px;
+    text-align: center;
+}
+.teacher-img{
+    width: 190px;
+    height: 190px;
+    padding: 3% 5%;
+   
+}
+
+.info-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+.info-div p {
+    font-size: 34px;
+}
+.location{
+    background-image: url(https://learn.logikaschool.com/uploads/student/4650141/68735caeaefb3.png);
+    background-size: 100%;
+}
+
+.location p {
+    color: rgb(206, 162, 68);
+    -webkit-text-stroke:2px #660606;
+    font-size: 36px;
+    margin-bottom: 100px;
+}
+
+footer{
+    position: relative;
+    width: 100%;
+    
+    height: 425px;
+    left: 0px;
+    background: #552f2f;
+}
+.footer-info{
+    position: absolute;
+    width: 30%;
+    left: 90px;
+    top: 10%;
+}
+h4{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: #FFFFFF;
+}
+.footer-info p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+
+
+    color: #fff;
+}
+.footer-img{
+    width: 70px;
+    height: 70px;
+    margin-right: 3%;
+}
+
+.logo-img{
+    position: absolute;
+    left: 70%;
+    top:15%;
+    width: 15%;
+}
+
+.division{
+    color: #cecece;
+    background-color: #9e1a1a;
+}
+
+.staff{
+    color: #cecece;
+    background-color: #9e1a1a;
+}
+.apply{
+    width: 221px;
+    height: 55px;
+    background-color: #cecece;
+    font-size: 20px ;
+    color: rgb(49, 49, 49);
+    text-align: center;
+    border-radius: rgb(83, 83, 83);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.phrase{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.f1 {
+    background-color: #897150;
+    border-radius: rgb(83, 83, 83);
+    color: white;
+}
+
+.f2 {
+    background-color: #60544C;
+    border-radius: rgb(83, 83, 83);
+    color: white;
+}
+
+.f3 {
+    background-color: #897150;
+    border-radius: rgb(83, 83, 83);
+    color: white;
+}
